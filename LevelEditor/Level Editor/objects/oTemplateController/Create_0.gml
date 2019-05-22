@@ -1,0 +1,3 @@
+/// @description Encode room
+
+scrEncodeRoomData();
