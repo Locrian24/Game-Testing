@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3447da47-1a20-4c9b-946c-bb6d5e9ce153",
+            "Value": {
+                "id": "59a7a507-a8dd-4ed5-b433-2ded6dacbf84",
+                "resourcePath": "scripts\\decoderTestScript\\decoderTestScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "359eba27-81c5-4a19-b0a7-01290d97597e",
             "Value": {
                 "id": "0a013a13-0061-45b3-80e4-cbce291c8ccb",
@@ -601,7 +609,8 @@
     ],
     "script_order": [
         "be305c46-fff2-4a43-b7dc-e7b8333e4caa",
-        "b6739792-289c-4b81-b780-cf0bc72ac9de"
+        "b6739792-289c-4b81-b780-cf0bc72ac9de",
+        "3447da47-1a20-4c9b-946c-bb6d5e9ce153"
     ],
     "tutorial": ""
 }
