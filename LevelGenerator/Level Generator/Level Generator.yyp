@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "175d0ff2-9327-4b52-baa4-ae2904e58072",
+            "Value": {
+                "id": "8d902ac6-0bd8-487b-870d-cf4f07971dc9",
+                "resourcePath": "objects\\oError\\oError.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "286c7994-9c70-490a-a6e8-c0c9cca5713a",
             "Value": {
                 "id": "2a7faf1c-4238-4f2f-9337-35d81bf82e31",
@@ -76,6 +84,14 @@
                 "id": "0a013a13-0061-45b3-80e4-cbce291c8ccb",
                 "resourcePath": "objects\\oSpecial\\oSpecial.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3802d365-aa6a-4672-8072-5273a8e7c029",
+            "Value": {
+                "id": "05a1f915-5e71-44ec-aa83-0b8588d75337",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "a436b630-b75b-4f4e-9851-ab24c089ed6c",
+            "Value": {
+                "id": "55ec30fd-d425-4b59-a04b-532bfbcfb02e",
+                "resourcePath": "scripts\\decodeSectionString\\decodeSectionString.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a7d934f9-877c-4f8d-8763-db2c1f5c4a19",
             "Value": {
                 "id": "829a8dd9-f886-4fdb-8ab2-9643afa02a20",
@@ -327,6 +351,14 @@
             }
         },
         {
+            "Key": "ddcd9060-411d-4476-adba-d639d644c48f",
+            "Value": {
+                "id": "15625ab1-8bc3-4e77-ac7c-4ee14e5ef0ec",
+                "resourcePath": "sprites\\sprite6\\sprite6.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e45c823f-af87-43e4-9dc3-44ff140c7209",
             "Value": {
                 "id": "43a04e5d-91f5-4c28-89cd-a6aadea215a0",
@@ -348,6 +380,14 @@
                 "id": "b8718184-0ef0-4221-8dd5-eb29565036a8",
                 "resourcePath": "objects\\oGenerateLevel\\oGenerateLevel.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f39c63cb-7d9c-49e6-b1ae-46a81b20181a",
+            "Value": {
+                "id": "35624a93-a073-43c8-b6c5-137258db6f8e",
+                "resourcePath": "sprites\\sprite7\\sprite7.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -387,6 +427,7 @@
         "407a4a68-8fae-4f9a-8cf5-2977c7d6cd20",
         "b2621c96-f952-48ce-b744-71e842131277",
         "4c7b5316-4c1e-49ec-a29c-5ae2df8d2eba",
+        "a436b630-b75b-4f4e-9851-ab24c089ed6c",
         "f4272d4b-60e6-4ee2-8ea4-0b90974eda90",
         "d95461ce-7e72-4355-a207-1d9f36b0d8e8",
         "be305c46-fff2-4a43-b7dc-e7b8333e4caa"

@@ -62,5 +62,5 @@ for (var i = 1; i <= length; i++) {
 
 var saveDir = get_save_filename("*.txt", room_get_name(room) + ".txt");
 var file = file_text_open_write(saveDir);
-file_text_write_string(file, levelData);
+file_text_write_string(file, encodedData);
 file_text_close(file);

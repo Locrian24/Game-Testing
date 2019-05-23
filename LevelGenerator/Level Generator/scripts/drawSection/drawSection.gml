@@ -10,21 +10,21 @@ var _y_offset = _y * CELL_SIZE * SECTION_GRID_HEIGHT;
 
 var _string_wrap = _is_wide ? (SECTION_GRID_WIDTH * 2) : SECTION_GRID_WIDTH;
 
-for (var c = 1; c <= string_length(_data); c++) {
+var _x_position;
+var _y_position;
+
+var decoded_data = decodeSectionString(_data);
+
+for (var i = 1; i <= string_length(decoded_data); i++) {
 	
-	var _x_position = _x_offset + (((c-1) mod _string_wrap) * CELL_SIZE);
-	var _y_position = _y_offset + (((c-1) div _string_wrap) * CELL_SIZE);
+	_x_position = _x_offset + (((i-1) mod _string_wrap) * CELL_SIZE);
+	_y_position = _y_offset + (((i-1) div _string_wrap) * CELL_SIZE);
 	
-	show_debug_message(string(_x_position) + ":" + string(_y_position) + " = " + string_char_at(_data, c));
-	
-	switch(string_char_at(_data, c)) {
+	switch(string_char_at(decoded_data, i)) {
 		case "0": //empty
 			break;
 		case "1": //oWall
 			instance_create_layer(_x_position, _y_position, "Instances", oWall);
-			break;
-		case "T": //oTorch
-			instance_create_layer(_x_position, _y_position, "Instances", oTorch);
 			break;
 		case "A": //oAlter
 			instance_create_layer(_x_position, _y_position, "Instances", oAlter);
@@ -39,6 +39,7 @@ for (var c = 1; c <= string_length(_data); c++) {
 			instance_create_layer(_x_position, _y_position, "Instances", oNPC);
 			break;
 		default:
+			instance_create_layer(_x_position, _y_position, "Instances", oError);
 			break;
 	}
 }
